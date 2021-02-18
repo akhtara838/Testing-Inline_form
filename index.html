@@ -17,7 +17,7 @@
              <fieldset class="border">
         <legend class="w-auto">Part 1: Patient Information</legend>
                 <form class="form-inline">
-    <div class="form-group row">
+                    <div class="form-group row">
                         <div class="col-sm-4">
                             <label for="txtFirstname" class="col-form-label">
                                 <span>First Name: </span>
@@ -67,6 +67,20 @@
                             </div>
                         </fieldset>
                     </div>
+            <form class="form-inline">
+                <div class="row form-group">
+                    <label for="txttel" class="col-sm-2 col-form-label"> Phone Number: </label>
+                    <div class="col-sm-10">
+                        <input type="tel" id="txttel" name="txttel" pattern="[0-9](3)-[0-9](3)-[0-9](4)" class="form-control" placeholder="555-555-5555">
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="txtemail" class="col-sm-2 col-form-label">Email: </label>
+                    <div class="col-sm-10">
+                        <input type="email" required id="txtemail" name="txtemail" class="form-control" placeholder="name@example.com">
+                    </div>
+                </div>
+            </form>
 
                 </fieldset>
                     
